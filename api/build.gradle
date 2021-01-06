@@ -1,0 +1,7 @@
+apply plugin: 'application'
+
+mainClassName = 'by.epam.task2.App'
+
+dependencies {
+    compile project(':core')
+}
